@@ -1,0 +1,96 @@
+/* General Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  transition: all 0.3s ease;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+  color: #333;
+  text-align: center;
+  padding: 20px;
+}
+
+/* Container Styling */
+.container {
+  max-width: 600px;
+  margin: 50px auto;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  background-color: white;
+}
+
+/* Title Styling */
+h1 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+/* Color Box Styling */
+#color-box {
+  width: 100%;
+  height: 150px;
+  margin: 20px 0;
+  border: 2px solid #ddd;
+  border-radius: 10px;
+  background-color: #ccc;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #000;
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+
+/* Button Styling */
+#change-color-btn {
+  padding: 10px 20px;
+  font-size: 1rem;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#change-color-btn:hover {
+  background-color: #0056b3;
+}
+
+/* Theme Toggle Styling */
+.theme-toggle {
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  font-size: 2rem;
+  cursor: pointer;
+  padding: 10px;
+  border-radius: 50%;
+}
+
+.theme-toggle:hover {
+  background-color: rgba(0, 0, 0, 0.1);
+}
+
+/* Dark Mode Styling */
+.dark-mode {
+  background-color: #1e1e1e;
+  color: #f0f0f0;
+}
+
+.dark-mode #color-box {
+  border-color: #444;
+}
+
+.dark-mode #change-color-btn {
+  background-color: #444;
+  color: #f0f0f0;
+}
+
+.dark-mode #change-color-btn:hover {
+  background-color: #666;
+}
